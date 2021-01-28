@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang7
+  description: golang7
+  annotations: 
+    github.com/project-slug: alokmaurya1/golang7
+    backstage.io/source-ref: "https://github.com/alokmaurya1/golang7"
+    backstage.io/techdocs-ref: url:https://github.com/alokmaurya1/golang7
+    backstage.io/github-actions-id: https://github.com/alokmaurya1/golang7
+spec:
+  type: service
+  lifecycle: experimental
+  owner: alokmaurya1
